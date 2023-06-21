@@ -1,0 +1,9 @@
+git --version
+
+git status
+git add "test.txt" #cdで該当ディレクトリに移動した後実行
+git commit -m "message" #messageには変更内容を略記「add test.txt」「update test.txt」など
+git log -p
+
+mkdir hello-git
+cd hello-git
